@@ -1,0 +1,5 @@
+import { getProductsByCategory } from "../../data/products";
+import ProductGrid from "../ProductGrid";
+export default function Furnitures() {
+  return <ProductGrid products={getProductsByCategory("furnitures")} title="🛋️ Furnitures" subtitle="Transform your space with our premium furniture collection." />;
+}

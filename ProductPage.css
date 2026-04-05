@@ -1,0 +1,78 @@
+export const products = [
+  // Furnitures
+  { id: 1, name: "Nordic Sofa Set", category: "furnitures", price: 1299, rating: 4.8, reviews: 124, description: "Minimalist Scandinavian sofa with premium linen upholstery and solid oak legs. Perfect for modern living rooms.", image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80", badge: "Best Seller" },
+  { id: 2, name: "Walnut Dining Table", category: "furnitures", price: 899, rating: 4.6, reviews: 87, description: "Solid walnut dining table for 6, with hairpin steel legs and a natural oil finish for lasting beauty.", image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80" },
+  { id: 3, name: "Velvet Accent Chair", category: "furnitures", price: 449, rating: 4.7, reviews: 213, description: "Deep teal velvet upholstered accent chair with gold-tipped tapered legs. A statement piece for any room.", image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80", badge: "New" },
+  { id: 4, name: "Marble Coffee Table", category: "furnitures", price: 599, rating: 4.5, reviews: 65, description: "White Carrara marble top coffee table with a brushed brass frame. Elevates any living space.", image: "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?w=600&q=80" },
+  { id: 5, name: "Floating Bookshelf", category: "furnitures", price: 259, rating: 4.4, reviews: 178, description: "Wall-mounted solid oak floating shelves. Easy to install, perfect for books, plants, and décor.", image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=80" },
+  { id: 6, name: "Platform Bed Frame", category: "furnitures", price: 749, rating: 4.9, reviews: 302, description: "Low-profile platform bed frame in matte black steel with integrated under-bed storage.", image: "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80", badge: "Top Rated" },
+  { id: 7, name: "Mid-Century Sideboard", category: "furnitures", price: 679, rating: 4.6, reviews: 91, description: "Retro-inspired walnut sideboard with angled tapered legs and three spacious drawers.", image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" },
+  { id: 8, name: "Rattan Room Divider", category: "furnitures", price: 329, rating: 4.3, reviews: 44, description: "Handwoven natural rattan 4-panel room divider. Adds a boho touch while defining spaces.", image: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80", badge: "New" },
+
+  // Electronics
+  { id: 9, name: "Pro Noise-Cancel Headphones", category: "electronics", price: 349, rating: 4.9, reviews: 512, description: "40-hour battery, adaptive ANC, and crystal-clear Hi-Res audio with plush memory foam ear cushions.", image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80", badge: "Best Seller" },
+  { id: 10, name: "4K Smart TV 55\"", category: "electronics", price: 799, rating: 4.7, reviews: 287, description: "QLED 4K display with Dolby Vision, HDR10+, built-in Google TV, and a sleek bezel-less design.", image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=600&q=80" },
+  { id: 11, name: "Wireless Charging Pad", category: "electronics", price: 49, rating: 4.5, reviews: 634, description: "15W fast wireless charger compatible with Qi devices. Slim, silent, and efficient.", image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&q=80" },
+  { id: 12, name: "Mechanical Keyboard", category: "electronics", price: 129, rating: 4.8, reviews: 441, description: "RGB backlit TKL mechanical keyboard with Cherry MX switches, aluminum frame, and USB-C.", image: "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=600&q=80", badge: "Top Rated" },
+  { id: 13, name: "Smart Watch Pro", category: "electronics", price: 299, rating: 4.6, reviews: 198, description: "Health & fitness tracker with ECG, SpO2, GPS, AMOLED always-on display, and 10-day battery.", image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80", badge: "New" },
+  { id: 14, name: "Portable Bluetooth Speaker", category: "electronics", price: 89, rating: 4.7, reviews: 356, description: "360° sound, IPX7 waterproof, 24hr battery. The ultimate outdoor companion.", image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&q=80" },
+  { id: 15, name: "Curved Gaming Monitor", category: "electronics", price: 459, rating: 4.8, reviews: 163, description: "27\" 165Hz 1440p curved VA panel with 1ms response time and FreeSync Premium Pro.", image: "https://images.unsplash.com/photo-1527443224154-c4a573d9e7ed?w=600&q=80" },
+  { id: 16, name: "Compact Mirrorless Camera", category: "electronics", price: 1199, rating: 4.9, reviews: 89, description: "24.2MP APS-C sensor, 4K video, in-body stabilization, and weather sealing for the serious photographer.", image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80", badge: "New" },
+
+  // Lamps
+  { id: 17, name: "Arc Floor Lamp", category: "lamps", price: 189, rating: 4.7, reviews: 134, description: "Brushed gold arc floor lamp with a marble base and adjustable arm. Warm 2700K bulb included.", image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80", badge: "Best Seller" },
+  { id: 18, name: "Edison Bulb Pendant", category: "lamps", price: 79, rating: 4.6, reviews: 201, description: "Industrial-style pendant light with vintage Edison bulb and an adjustable black cord.", image: "https://images.unsplash.com/photo-1513506003901-1e6a35b48e83?w=600&q=80" },
+  { id: 19, name: "Mushroom Table Lamp", category: "lamps", price: 129, rating: 4.8, reviews: 98, description: "Iconic retro mushroom lamp with a frosted glass shade and a dimmable warm LED.", image: "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=600&q=80", badge: "New" },
+  { id: 20, name: "LED Strip Kit 5m", category: "lamps", price: 35, rating: 4.5, reviews: 890, description: "Smart RGB LED strip with app control, music sync, and adhesive backing. Works with Alexa & Google.", image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" },
+  { id: 21, name: "Neon Sign — Custom", category: "lamps", price: 149, rating: 4.9, reviews: 67, description: "Hand-bent LED neon flex sign. Choose your text and color. USB powered, dimmable.", image: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&q=80", badge: "Top Rated" },
+  { id: 22, name: "Bedside Crystal Lamp", category: "lamps", price: 95, rating: 4.6, reviews: 142, description: "Rose gold base with a cut crystal shade that casts beautiful prism patterns across the room.", image: "https://images.unsplash.com/photo-1444312645910-ffa973656eba?w=600&q=80" },
+  { id: 23, name: "Outdoor Solar Lantern", category: "lamps", price: 55, rating: 4.4, reviews: 217, description: "Weatherproof solar lantern with warm amber LED. Auto on/off at dusk and dawn.", image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" },
+
+  // Kitchen
+  { id: 24, name: "Stand Mixer 6.5Qt", category: "kitchen", price: 399, rating: 4.9, reviews: 743, description: "Powerful 650W stand mixer with 10 speeds, tilt-head, and 6 included attachments for baking perfection.", image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80", badge: "Best Seller" },
+  { id: 25, name: "Cast Iron Dutch Oven", category: "kitchen", price: 129, rating: 4.8, reviews: 512, description: "5.5 qt enameled cast iron Dutch oven. Perfect for braising, stews, soups, and sourdough baking.", image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" },
+  { id: 26, name: "Japanese Chef Knife", category: "kitchen", price: 89, rating: 4.9, reviews: 634, description: "8-inch VG10 Damascus steel chef knife with a beautiful pakkawood handle. Razor sharp, perfectly balanced.", image: "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=600&q=80", badge: "Top Rated" },
+  { id: 27, name: "Cold Brew Coffee Maker", category: "kitchen", price: 49, rating: 4.7, reviews: 289, description: "1.5L glass cold brew maker with stainless steel filter. Makes smooth, low-acid coffee in 12–24 hours.", image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" },
+  { id: 28, name: "Ceramic Cookware Set", category: "kitchen", price: 259, rating: 4.6, reviews: 178, description: "10-piece non-toxic ceramic non-stick cookware set. PFAS-free, oven safe to 450°F.", image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&q=80", badge: "New" },
+  { id: 29, name: "Bamboo Cutting Board Set", category: "kitchen", price: 39, rating: 4.5, reviews: 421, description: "Set of 3 sustainably sourced bamboo cutting boards with juice grooves. Antibacterial and eco-friendly.", image: "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=80" },
+  { id: 30, name: "Espresso Machine", category: "kitchen", price: 549, rating: 4.8, reviews: 234, description: "15-bar pump espresso machine with built-in milk frother, PID temperature control, and portafilter.", image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=600&q=80", badge: "Best Seller" },
+  { id: 31, name: "Air Fryer XL 6Qt", category: "kitchen", price: 119, rating: 4.7, reviews: 867, description: "6-quart digital air fryer with 8 cooking presets, rapid hot air circulation, and easy-clean basket.", image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&q=80" },
+
+  // Chairs
+  { id: 32, name: "Ergonomic Office Chair", category: "chairs", price: 529, rating: 4.9, reviews: 621, description: "Lumbar support, adjustable armrests, breathable mesh back, and synchron tilt mechanism for all-day comfort.", image: "https://images.unsplash.com/photo-1596162954151-cdcb4c0f70a8?w=600&q=80", badge: "Best Seller" },
+  { id: 33, name: "Wicker Lounge Chair", category: "chairs", price: 349, rating: 4.6, reviews: 112, description: "Handwoven natural wicker lounge chair with a deep cushioned seat. Indoor/outdoor use.", image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80" },
+  { id: 34, name: "Accent Barrel Chair", category: "chairs", price: 399, rating: 4.7, reviews: 89, description: "Modern barrel chair in boucle fabric with solid wood legs. A cozy complement to any living room.", image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80", badge: "New" },
+  { id: 35, name: "Gaming Chair Pro", category: "chairs", price: 299, rating: 4.8, reviews: 445, description: "Racing-style gaming chair with lumbar pillow, neck cushion, recline to 180°, and PU leather.", image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80", badge: "Top Rated" },
+  { id: 36, name: "Swivel Bar Stool (Set 2)", category: "chairs", price: 219, rating: 4.5, reviews: 167, description: "Counter-height swivel bar stools with velvet cushions and gold-finished footrests. Set of 2.", image: "https://images.unsplash.com/photo-1551298370-9d3d53740c72?w=600&q=80" },
+  { id: 37, name: "Kids Bean Bag Chair", category: "chairs", price: 79, rating: 4.8, reviews: 312, description: "Ultra-soft memory foam bean bag chair for kids. Washable cover, 5 vibrant color options.", image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" },
+  { id: 38, name: "Hammock Chair", category: "chairs", price: 139, rating: 4.6, reviews: 98, description: "Macramé cotton hanging hammock chair with a spreader bar. Max 250 lbs. Hardware included.", image: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80" },
+
+  // SkinCare
+  { id: 39, name: "Vitamin C Serum", category: "skincare", price: 49, rating: 4.8, reviews: 1203, description: "20% L-ascorbic acid brightening serum with hyaluronic acid and ferulic acid. Fades dark spots in 4 weeks.", image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&q=80", badge: "Best Seller" },
+  { id: 40, name: "Retinol Night Cream", category: "skincare", price: 69, rating: 4.7, reviews: 876, description: "0.5% encapsulated retinol with shea butter and ceramides. Reduces fine lines while you sleep.", image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80" },
+  { id: 41, name: "Hyaluronic Acid Toner", category: "skincare", price: 35, rating: 4.6, reviews: 654, description: "Triple-weight hyaluronic acid toner that draws moisture deep into the skin for 72-hour hydration.", image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&q=80", badge: "New" },
+  { id: 42, name: "SPF 50 Sunscreen Fluid", category: "skincare", price: 28, rating: 4.9, reviews: 2100, description: "Lightweight, invisible SPF 50 PA++++ sunscreen that wears beautifully under makeup.", image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80", badge: "Top Rated" },
+  { id: 43, name: "Clay Detox Mask", category: "skincare", price: 32, rating: 4.5, reviews: 432, description: "Kaolin and bentonite clay mask with activated charcoal. Deep cleanses pores in 10 minutes.", image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" },
+  { id: 44, name: "Eye Cream Peptide Fix", category: "skincare", price: 55, rating: 4.7, reviews: 389, description: "Caffeine + peptide eye cream that targets dark circles, puffiness, and crow's feet.", image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80" },
+  { id: 45, name: "Face Oil Elixir", category: "skincare", price: 78, rating: 4.8, reviews: 211, description: "Rosehip, squalane, and bakuchiol facial oil for radiant, balanced skin. 100% natural ingredients.", image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&q=80" },
+  { id: 46, name: "Niacinamide 10% Serum", category: "skincare", price: 24, rating: 4.9, reviews: 3412, description: "10% niacinamide + 1% zinc formula. Controls oil, minimizes pores, and evens skin tone.", image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80", badge: "Best Seller" },
+];
+
+export const categories = [
+  { id: "all", label: "All", icon: "🛍️" },
+  { id: "furnitures", label: "Furnitures", icon: "🛋️" },
+  { id: "electronics", label: "Electronics", icon: "📱" },
+  { id: "lamps", label: "Lamps", icon: "💡" },
+  { id: "kitchen", label: "Kitchen", icon: "🍳" },
+  { id: "chairs", label: "Chairs", icon: "🪑" },
+  { id: "skincare", label: "SkinCare", icon: "✨" },
+];
+
+export const getProductsByCategory = (category) => {
+  if (category === "all") return products;
+  return products.filter((p) => p.category === category);
+};
+
+export const getProductById = (id) => {
+  return products.find((p) => p.id === parseInt(id));
+};
